@@ -1,0 +1,9 @@
+div {
+    background-color: black;
+    text-align: center;
+    height: 700px;
+}
+
+input[type=text] {
+    border-radius: 5px;
+}

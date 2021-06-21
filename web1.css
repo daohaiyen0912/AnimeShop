@@ -23,7 +23,7 @@ li a {
     text-align: center;
     padding: 18px 110px;
     text-decoration: none;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:sans-serif;
   }
 
 #a1 {
@@ -77,6 +77,10 @@ li a:hover {
     border-radius: 4px;
     opacity: 0.6;
 }
+#input1:focus{
+    background-color: pink;
+    opacity: 1;
+}
 /*div1*/
 
 #div2 {
@@ -84,6 +88,7 @@ li a:hover {
     background: black;
     text-align: left;
     color: white;
+    font-family: sans-serif;
     padding: 80px 220px;
     font-size: 16px;    
 }
