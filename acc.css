@@ -1,9 +1,43 @@
-div {
-    background-color: black;
+h1 {
     text-align: center;
-    height: 700px;
+}
+
+div {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    height: 350px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 40px;
+    text-align: center;
 }
 
 input[type=text] {
+    margin-top: 0px;
     border-radius: 5px;
+    height: 35px;
+    width: 80%;
+}
+
+input[type=password] {
+    margin-top: 0px;
+    border-radius: 5px;
+    height: 35px;
+    width: 80%;
+}
+
+input[type=radio] {
+    margin-top: 50px;
+}
+
+input[type=button] {
+    margin-top: 30px;
+    width: 80%;
+}
+
+label {
+    margin-left: 0px;
+    font-size: 25px;
+    padding-top: 20px;  
 }
