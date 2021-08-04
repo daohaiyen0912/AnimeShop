@@ -3,21 +3,22 @@
     margin: 0;
 }
 /*nav*/
-nav {
+.navbar {
     background: black;
     height: 70px;
     text-align: left;
     font-size: 15pt;
     font-weight: bold;
-    font-family: Myriad Pro;
+    font-family: sans-serif;
     color: white;
     
 }
-li {
+.navbar li {
     float: left;
     display: inline;
+    padding-left: 30px;
 }
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -26,14 +27,8 @@ li a {
     font-family:sans-serif;
   }
 
-#a1 {
-    padding-left: 200px;
-    padding-right: 120px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
   
-li a:hover {
+.navbar li a:hover {
     color: Black;
     background-color: red;
     font-weight: bold;
@@ -93,7 +88,46 @@ li a:hover {
     font-size: 16px;    
 }
 
-#div3 {
-    height: 350px;
-    background: #601111;
+/*products*/
+
+.products {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    list-style-type: none;
+}
+
+.products li {
+    display: block;
+    float: left;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.products li a {
+    display: block;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    font-family:sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.products li a:hover{
+    background-color: red;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.products p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
